@@ -1,0 +1,14 @@
+{
+  "name": "platform-ci",
+  "private": true,
+  "scripts": {
+    "version:show": "node scripts/version.js show",
+    "version:init": "node scripts/version.js init",
+    "version:patch": "node scripts/version.js patch",
+    "version:minor": "node scripts/version.js minor",
+    "version:major": "node scripts/version.js major",
+    "tag": "node scripts/tag.js",
+    "release": "node scripts/release.js",
+    "release:dev": "node scripts/release-dev.js"
+  }
+}
